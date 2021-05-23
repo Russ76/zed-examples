@@ -1,43 +1,10 @@
-# Stereolabs ZED - SVO Export
+# ZED SDK - SVO Export
 
 This sample demonstrates how to read a SVO file and convert it into an AVI file (LEFT + RIGHT) or (LEFT + DEPTH_VIEW).
 
 It can also convert a SVO in the following png image sequences: LEFT+RIGHT, LEFT+DEPTH_VIEW, and LEFT+DEPTH_16Bit.
 
-## Getting started
-
-- First, download the latest version of the ZED SDK on [stereolabs.com](https://www.stereolabs.com).
-- For more information, read the ZED [API documentation](https://www.stereolabs.com/developers/documentation/API/).
-
-### Prerequisites
-
-- Windows 10, Ubuntu LTS
-- [ZED SDK](https://www.stereolabs.com/developers/) and its dependencies ([CUDA](https://developer.nvidia.com/cuda-downloads))
-- OpenCV
-
-## Build the program
-
-#### Build for Windows
-
-- Create a "build" folder in the source folder
-- Open cmake-gui and select the source and build folders
-- Generate the Visual Studio `Win64` solution
-- Open the resulting solution and change configuration to `Release`
-- Build solution
-
-#### Build for Linux
-
-Open a terminal in the sample directory and execute the following command:
-
-    mkdir build
-    cd build
-    cmake ..
-    make
-
-## Run the program
-
-Open a command terminal in build directory and follow the instructions bellow:
-
+### Features
 ```
 Usage:
 
